@@ -83,15 +83,25 @@ print(joined_motto_split) # Output: ['M', 'ke h', 'ste slowly.']
 
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
+sentence = "Life is what happens when you are busy making other plans."
+replace_sentence = print(sentence.replace("busy", "disctracted").replace ("plans", "mistakes"))
 # a. Replace "busy" with "distracted".
+replace_sentence = print(sentence.replace("busy", "disctracted").replace ("plans", "mistakes"))
 # b. Replace "plans" with "mistakes".
+replace_sentence = print(sentence.replace("busy", "disctracted").replace ("plans", "mistakes"))
+
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
+repeated_word = print("Iteration " *7)
+
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+word = "freedom"
+quote = "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+word_in_quote = print(word in quote) #Output: freedom
 
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
