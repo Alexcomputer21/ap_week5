@@ -48,18 +48,38 @@ extracted_name = print(famous_quote[98:])
 
 # Manipulating Words:
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
+info = "Python is fun. Fun is good. Good is subjective."
+
 # a. Extract the word 'subjective' without knowing its exact position.
+print(info.rfind("subjective")) # output 36
+extracted_word = print(info[36:]) # output: subjective 
+
 # b. Extract every third word.
+thrid_letter = print(info[ : : 3]) # output: Posi u o od sseie
+
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
+words = info.split() #Split the strign into words
+print(words) #Output: ['Python', 'is,' 'fun.', 'Fun', 'is', 'good.', 'Good', 'is', 'subjective.']
+reversed_words = ' '.join(reversed(words)) # Reversed the list of words and and join them back into a string
+print(reversed_words) # OUtput: Subjective. is Good good. Fun is Python
+
 
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
-
+text = "MAY THE FORCE BE WITH YOU."
+#
 # String Joining and Splitting:
 # Given the list motto = ["Make", "haste", "slowly."],
+motto = ["Make", "haste", "slowly."]
+
 # a. Convert the list into a single string.
+joined_motto = ' '.join(motto)
+print(joined_motto) # Output: Make haste slowly
+
 # b. Now, split the string at every occurrence of the letter 'a'.
+joined_motto_split = joined_motto.split('a')
+print(joined_motto_split) # Output: ['M', 'ke h', 'ste slowly.']
 
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
